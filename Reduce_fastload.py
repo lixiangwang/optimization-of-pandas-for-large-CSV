@@ -12,6 +12,11 @@ import time
 
 class reduce_fastload:
     def __init__(self, data_dir, use_HDF5=False, use_feather=False):
+        """
+        :use HDF5 to store: use_HDF5=True
+        :use feather to store: use_feather=True
+        
+        """
         self.data_dir = data_dir
         self.use_HDF5 = use_HDF5
         self.use_feather = use_feather
@@ -90,15 +95,3 @@ class reduce_fastload:
                 print('Please choose the only way to compress：True or False')
 
         return preprocessed_df
-
-
-
-
-
-
-
-
-
-
-
-
