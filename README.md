@@ -1,6 +1,6 @@
 # optimization-of-pandas-for-large-CSV
->&#160; &#160; &#160; &#160;Pandas 是常用的 Python 软件库，可用于数据操作和分析。在进行数据分析时，导入数据（例如pd.read_csv)几乎是必需的，但对于大的CSV，可能会需要占用大量的内存和读取时间，这对于数据分析时如果需要Reloading原始数据的话会非常低效。
->&#160; &#160; &#160; &#160;Dataquest.io 发布了一篇关于如何优化 pandas 内存占用的教程，仅需进行简单的数据类型转换，就能够将一个棒球比赛数据集的内存占用减少了近 90%，而pandas本身集成上的一些压缩数据类型可以帮助我们快速读取数据。
+>Pandas 是常用的 Python 软件库，可用于数据操作和分析。在进行数据分析时，导入数据（例如pd.read_csv)几乎是必需的，但对于大的CSV，可能会需要占用大量的内存和读取时间，这对于数据分析时如果需要Reloading原始数据的话会非常低效。
+>Dataquest.io 发布了一篇关于如何优化 pandas 内存占用的教程，仅需进行简单的数据类型转换，就能够将一个棒球比赛数据集的内存占用减少了近 90%，而pandas本身集成上的一些压缩数据类型可以帮助我们快速读取数据。
 
 
 ## 1. 方法介绍
@@ -8,10 +8,10 @@
 
 ## 2.类的使用
 
-&#160; &#160; &#160; &#160;**step1:导入**：from Reduce_fastload import reduce_fastload
-&#160; &#160; &#160; &#160;**step2:实例化**：process=reduce_fastload('your path',use_HDF5=True/False,use_feather=True/False)
-&#160; &#160; &#160; &#160;**step3:对原始数据作内存优化**：process.reduce_data()
-&#160; &#160; &#160; &#160;**step4:加载优化数据**：process_data=process.reload_data()
+**step1:导入**：from Reduce_fastload import reduce_fastload
+**step2:实例化**：process=reduce_fastload('your path',use_HDF5=True/False,use_feather=True/False)
+**step3:对原始数据作内存优化**：process.reduce_data()
+**step4:加载优化数据**：process_data=process.reload_data()
 
 ## example
 
