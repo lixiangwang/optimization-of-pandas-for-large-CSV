@@ -19,7 +19,7 @@
 可以看出，原CSV文件占用内存为616.95MB，优化内存后的占用仅为173.9MB，且相对于原来pd.read_csv的7.7s的loading time,读入优化后的预处理数据文件能很大程度上的加速了读取。
 
 
-### Reference 
-[1].https://www.kaggle.com/arjanso/reducing-dataframe-memory-size-by-65
-[2].https://zhuanlan.zhihu.com/p/56541628
-[3].https://blog.csdn.net/weiyongle1996/article/details/78498603
+### Reference   
+[1].https://www.kaggle.com/arjanso/reducing-dataframe-memory-size-by-65  
+[2].https://zhuanlan.zhihu.com/p/56541628  
+[3].https://blog.csdn.net/weiyongle1996/article/details/78498603  
