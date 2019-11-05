@@ -8,10 +8,10 @@
 
 ## 2.类的使用
 
-**step1:导入**：from Reduce_fastload import reduce_fastload
-**step2:实例化**：process=reduce_fastload('your path',use_HDF5=True/False,use_feather=True/False)
-**step3:对原始数据作内存优化**：process.reduce_data()
-**step4:加载优化数据**：process_data=process.reload_data()
+**step1:导入**：from Reduce_fastload import reduce_fastload  
+**step2:实例化**：process=reduce_fastload('your path',use_HDF5=True/False,use_feather=True/False)  
+**step3:对原始数据作内存优化**：process.reduce_data()  
+**step4:加载优化数据**：process_data=process.reload_data()  
 
 ## example
 
