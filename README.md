@@ -15,8 +15,8 @@
 
 ## example
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191105195459124.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dseDE5OTcwNTA1,size_16,color_FFFFFF,t_70#pic_center)
-&#160; &#160; &#160; &#160;可以看出，原CSV文件占用内存为616.95MB，优化内存后的占用仅为173.9MB，且相对于原来pd.read_csv的7.7s的loading time,读入优化后的预处理数据文件能很大程度上的加速了读取。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191105195459124.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dseDE5OTcwNTA1,size_16,color_FFFFFF,t_70#pic_center)  
+可以看出，原CSV文件占用内存为616.95MB，优化内存后的占用仅为173.9MB，且相对于原来pd.read_csv的7.7s的loading time,读入优化后的预处理数据文件能很大程度上的加速了读取。
 
 
 ### Reference 
